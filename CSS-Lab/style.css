@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.responsive-header {
+    display: none;
+}
+.sidebar-menu {
+    position: fixed;
+    width: 22vw;
+    height: 100vh;
+    background-color: #5f6d7d;
+    color: #fff;
+}
+.top-section {
+    height: 160px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.profile-image {
+    width: 104px;
+    height: 104px;
+    border-radius: 52px;
+    background-color: #fff;
+}
+.profile-image img {
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.profile-title {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.profile-description {
+    margin-top: 6px;
+    font-size: 12px;
+}
+.main-navigation {
+    margin-top: 60px;
+}
+.navigation {
+    list-style-type: none;
+}
+.navigation li:hover{
+    background-color: #5a6878;
+}
+.navigation li {
+    margin-left: -40px;
+    padding-top: 10px;
+    height: 30px;
+}
+.navigation li a {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 12px;
+}
+.navigation li a .fa {
+    margin-right: 10px;
+    font-size: 18px;
+    width: 18px;
+}
+.social-icons {
+    padding-left: 30px;
+}
+.social-icons ul {
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+.social-icons ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.social-icons ul li .fa {
+    color: #fff;
+    font-size: 14px;
+}
+.social-icons ul li .fa:hover {
+    color: #000;
+}
+.banner-bg {
+    margin-left: 22vw;
+    background-image: url("img/7.jpg");
+    background-position-y: -84px;
+    height: 500px;
+}
+.banner-overlay {
+    position: relative;
+    background-color: #444;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.welcome-text {
+    position: relative;
+    top: 0px;
+    z-index: 900;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: -500px;
+    color: #fff;
+    margin-right: 50px;
+}
+.welcome-text h2 {
+    margin-top: 210px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.welcome-text h5 {
+    font-weight: 100;
+    font-size: 16px;
+    word-spacing: 2px;
+}
+.main-content {
+    margin-left: 22vw;
+}
+.fluid-container {
+    padding: 50px 50px 0 50px;
+    color: #777;
+    line-height: 24px;
+}
+.fluid-container hr {
+    height: 4px;
+    background-color: #c8ccbb;
+    border: none;
+    margin-bottom: 62px;
+}
+.widget-title {
+    margin-bottom: 28px;
+    font-size: 14px;
+}
+.about-image {
+    width: 100%;
+    background-color: #c8ccbb;
+    margin-bottom: 28px;
+}
+.col-md-12 p {
+    font-size: 13px;
+    margin-bottom: 28px;
+}
+.about-image img {
+    width: 99.4%;
+    margin-left: 0.3%;
+    margin-top: 0.3%;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+.projects-holder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 28px;
+}
+.project-item {
+    margin-right: 2px;
+    margin-bottom: -4px;
+}
+.project-item img {
+    width: 100%;
+}
+.project-hover {
+    display: none;
+}
+.contact-form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+fieldset:nth-of-type(4) {
+    grid-column-end: span 3;
+}
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+}
+.contact-form fieldset input {
+    padding: 0;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+}
+.contact-form fieldset textarea {
+    padding: 0;
+    border-radius: 0;
+}
+#your-name, #email, #your-subject {
+    width: 95%;
+    height: 36px;
+    padding-left: 5%;
+}
+#message {
+    width: 98.5%;
+    height: 140px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.button {
+    margin-bottom: 62px;
+    width: 106px;
+    height: 30px;
+    background-color: #5f6d7d;
+    color: #fff;
+}
+.text-center {
+    text-align: center;
+}

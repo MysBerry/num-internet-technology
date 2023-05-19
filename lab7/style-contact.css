@@ -1,0 +1,81 @@
+* {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.canvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+    background-color: #333;
+}
+.content-box {
+    margin-top: 210px;
+    padding: 60px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+.insta-logo {
+    width: 50%;
+    margin-bottom: 40px;
+    position: relative;
+    animation-name: rotation-logo;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.contact-info {
+    width: 60%;
+    font-size: 22px;
+    text-align: center;
+}
+.contact-info a {
+    text-decoration: underline;
+}
+.contact-info a:hover {
+    color: #888;
+}
+@keyframes rotation-logo {
+    from {
+        width: 50%;
+        transform: rotate(0deg);
+    }
+    to {
+        width: 100%;
+        transform: rotate(360deg);
+    }
+}
+.my-name h2 {
+    animation-name: haha-funny;
+    animation-delay: 1s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes haha-funny {
+    0% {color: #fff;}
+    16.66% {color: #f00}
+    33.33%  {color: #fff;}
+    50% {color: #0f0}
+    66.66% {color: #fff;}
+    83.33% {color: #00f}
+    100% {color: #fff}
+}
+@media only screen and (min-width: 600px) {
+    .content-box {
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .content-box {
+        margin-top: 0px;
+    }
+}

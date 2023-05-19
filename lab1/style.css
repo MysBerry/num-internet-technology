@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+.background {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+.box {
+    height: 800px;
+    width: 1000px;
+    background-color: white;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 1000px;
+    background-color: burlywood;
+}
+.header-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 120px;
+    font-size: 30px;
+}
+.header-link a {
+    text-decoration: none;
+    color: white;
+}
+.content1 {
+    width: 1000px;
+    height: 700px;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seperation {
+    margin-top: 20px;
+    width: 500px;
+    height: 660px;
+}
+.seperation img {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 470px;
+    height: 630px;
+}
+.seperation h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h2-margin {
+    margin-top: 130px;
+}
+.content1 .box1 {
+    padding-top: 40px;
+    margin-left: 60px;
+    width: 880px;
+    height: 250px;
+}
+.content1 .box2 {
+    margin-left: 60px;
+    width: 880px;
+    height: 350px;
+}
+.box2 div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.box2 div img {
+    width: 260px;
+    height: 347px;
+}
+#family {
+    font-size: 28px;
+}
+.content1 .box3 {
+    margin-left: 60px;
+    width: 880px;
+    height: 350px;
+}
+.box3 div img {
+    position: relative;
+    top: -1938px;
+    left: -2680px;
+    scale: 0.12;
+}
+.content1 .box1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.height {
+    height: 700px;
+}
+.contact {
+    width: 1000px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact-mail {
+    font-size: 20px;
+}
+.contact-icon {
+    width: 50px;
+    height: 50px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 30px;
+    background-color: burlywood;
+}

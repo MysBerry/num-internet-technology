@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Problem-4</title>
+</head>
+<body style="padding-left: 50px;">
+    <h1>JS Problem-4</h1>
+    <script>
+        var toot = prompt('Ali toot ve?');
+        if(toot >= 1 && toot <= 108) {
+            document.write('Toot: ' + toot);
+            var orts = parseInt((toot - 1) / 36 + 1);
+            var davhar = parseInt(((toot - 1) % 36) / 4 + 1);
+            var ail = parseInt(((toot - 1) % 36) % 4 + 1);
+            document.write('<br/>');
+            document.write('Orts: ' + orts);
+            document.write('<br/>');
+            document.write('Davhar: ' + davhar);
+            document.write('<br/>');
+            document.write('Ail: ' + ail);
+        }
+        else {
+            document.write('Tiim toottoi ail alga.');
+        }
+    </script>
+</body>
+</html>

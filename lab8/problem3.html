@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Problem-3</title>
+</head>
+<body style="padding-left: 50px;">
+    <h1>JS Problem-3</h1>
+    <script>
+        var dist = prompt('Enter the distance (meter):');
+        document.write('Distance: ' + dist + ' meters');
+        var overall = parseInt(dist / 1.944);
+        var hour = parseInt(overall / 3600);
+        overall = overall % 3600;
+        var minute = parseInt(overall / 60);
+        second = overall % 60;
+        document.write('<br/>');
+        document.write('It will take ' + hour + 'hours ' + minute + 'minutes ' + second + 'seconds for wolf to catch the rabbit.');
+    </script>
+</body>
+</html>

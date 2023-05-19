@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div class="start">
+        <h1>Hangman Game by Barkhas</h1>
+        <button class="start-button" type="button" onclick="startGame()">Start</button>
+    </div>
+    <div class="setup">
+        <p>Enter your question here:</p>
+        <input type="text" class="question" name="question" onblur="getQuestion()">
+        <p>Enter the answer here:</p>
+        <input type="text" class="answer" name="answer" onblur="getAnswer()">
+        <button class="begin" type="button" onclick="beginGame()">Begin</button>
+    </div>
+    <div class="game">
+        <div class="main">
+            <div class="hangman">
+                <div class="hanger1"></div>
+                <div class="hanger2"></div>
+                <div class="hanger3"></div>
+                <div class="hanger4"></div>
+                <div class="man-head"></div>
+                <div class="man-body"></div>
+                <div class="left-arm"></div>
+                <div class="right-arm"></div>
+                <div class="left-leg"></div>
+                <div class="right-leg"></div>
+            </div>
+            <div class="input">
+                <div id="A" class="letter">A</div>
+                <div id="B" class="letter">B</div>
+                <div id="C" class="letter">C</div>
+                <div id="D" class="letter">D</div>
+                <div id="E" class="letter">E</div>
+                <div id="F" class="letter">F</div>
+                <div id="G" class="letter">G</div>
+                <div id="H" class="letter">H</div>
+                <div id="I" class="letter">I</div>
+                <div id="J" class="letter">J</div>
+                <div id="K" class="letter">K</div>
+                <div id="L" class="letter">L</div>
+                <div id="M" class="letter">M</div>
+                <div id="N" class="letter">N</div>
+                <div id="O" class="letter">O</div>
+                <div id="P" class="letter">P</div>
+                <div id="Q" class="letter">Q</div>
+                <div id="R" class="letter">R</div>
+                <div id="S" class="letter">S</div>
+                <div id="T" class="letter">T</div>
+                <div id="U" class="letter">U</div>
+                <div id="V" class="letter">V</div>
+                <div id="W" class="letter">W</div>
+                <div id="X" class="letter">X</div>
+                <div id="Y" class="letter">Y</div>
+                <div id="Z" class="letter">Z</div>
+            </div>
+        </div>
+        <div id="display-question">yes</div>
+        <div id="window"></div>
+    </div>
+    <div class="end">
+        <p id="endtext"></p>
+        <form action="hanging-man.html">
+            <button class="restart" type="submit">Restart</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+* {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.canvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+    background-color: #333;
+}
+.creep-right-box {
+    background-color: #fff;
+}
+.creep-right {
+    padding: 60px 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 121.25vw;
+}
+.creep-right .second-1 {
+    width: 97%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: second-1-present;
+    animation-delay: 0s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    margin-bottom: 8px;
+}
+.creep-right .second-2 {
+    width: 97%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: second-2-present;
+    animation-delay: 0s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    margin-bottom: 8px;
+}
+.creep-right .second-3 {
+    width: 97%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: second-3-present;
+    animation-delay: 0s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    margin-bottom: 8px;
+}
+.creep-right .second-4 {
+    width: 97%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: second-4-present;
+    animation-delay: 0s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    margin-bottom: 8px;
+}
+@keyframes second-1-present {
+    0% {
+        background-image: url(second/IMG_7613.JPG);
+    }
+    25% {
+        background-image: url(second/IMG_7609.JPG);
+    }
+    50% {
+        background-image: url(second/IMG_7614.JPG);
+    }
+    75% {
+        background-image: url(second/IMG_7607.JPG);
+    }
+    100% {
+        background-image: url(second/IMG_7613.JPG);
+    }
+}
+@keyframes second-2-present {
+    0% {
+        background-image: url(second/IMG_7607.JPG);
+    }
+    25% {
+        background-image: url(second/IMG_7613.JPG);
+    }
+    50% {
+        background-image: url(second/IMG_7609.JPG);
+    }
+    75% {
+        background-image: url(second/IMG_7614.JPG);
+    }
+    100% {
+        background-image: url(second/IMG_7607.JPG);
+    }
+}
+@keyframes second-3-present {
+    0% {
+        background-image: url(second/IMG_7614.JPG);
+    }
+    25% {
+        background-image: url(second/IMG_7607.JPG);
+    }
+    50% {
+        background-image: url(second/IMG_7613.JPG);
+    }
+    75% {
+        background-image: url(second/IMG_7609.JPG);
+    }
+    100% {
+        background-image: url(second/IMG_7614.JPG);
+    }
+}
+@keyframes second-4-present {
+    0% {
+        background-image: url(second/IMG_7609.JPG);
+    }
+    25% {
+        background-image: url(second/IMG_7614.JPG);
+    }
+    50% {
+        background-image: url(second/IMG_7607.JPG);
+    }
+    75% {
+        background-image: url(second/IMG_7613.JPG);
+    }
+    100% {
+        background-image: url(second/IMG_7609.JPG);
+    }
+}
+.ring-around {
+    padding: 60px 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.ring-around img {
+    width: 97%;
+    margin-bottom: 10px;
+}
+.ring-around .first-1 {
+    position: relative;
+    animation-name: first-1-present;
+    animation-delay: 12s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.ring-around .first-2 {
+    position: relative;
+    left: -100%;
+    top: 0%;
+    animation-name: first-2-present;
+    animation-delay: 10s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.ring-around .first-3 {
+    position: relative;
+    left: -200%;
+    top: 0%;
+    animation-name: first-3-present;
+    animation-delay: 8s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.ring-around .first-4 {
+    position: relative;
+    left: 0%;
+    top: -100%;
+    animation-name: first-4-present;
+    animation-delay: 6s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.ring-around .first-5 {
+    position: relative;
+    left: -100%;
+    top: -100%;
+    animation-name: first-5-present;
+    animation-delay: 4s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.ring-around .first-6 {
+    position: relative;
+    left: -200%;
+    top: -100%;
+    animation-name: first-6-present;
+    animation-delay: 2s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes first-1-present {
+    0%   {left:0%; top:0%;}
+    16.66%  {left:100%; top:0%;}
+    33.33%  {left:200%; top:0%;}
+    50%  {left:200%; top:100%;}
+    66.66% {left:100%; top:100%;}
+    83.33% {left:0%; top:100%;}
+    100% {left:0%; top:0%;}
+}
+@keyframes first-2-present {
+    0%   {left:-100%; top:0%;}
+    16.66%  {left:0%; top:0%;}
+    33.33%  {left:100%; top:0%;}
+    50%  {left:100%; top:100%;}
+    66.66% {left:0%; top:100%;}
+    83.33% {left:-100%; top:100%;}
+    100% {left:-100%; top:0%;}
+}
+@keyframes first-3-present {
+    0%   {left:-200%; top:0%;}
+    16.66%  {left:-100%; top:0%;}
+    33.33%  {left:0%; top:0%;}
+    50%  {left:0%; top:100%;}
+    66.66% {left:-100%; top:100%;}
+    83.33% {left:-200%; top:100%;}
+    100% {left:-200%; top:0%;}
+}
+@keyframes first-4-present {
+    0%   {left:0%; top:-100%;}
+    16.66%  {left:100%; top:-100%;}
+    33.33%  {left:200%; top:-100%;}
+    50%  {left:200%; top:0%;}
+    66.66% {left:100%; top:0%;}
+    83.33% {left:0%; top:0%;}
+    100% {left:0%; top:-100%;}
+}
+@keyframes first-5-present {
+    0%   {left:-100%; top:-100%;}
+    16.66%  {left:0%; top:-100%;}
+    33.33%  {left:100%; top:-100%;}
+    50%  {left:100%; top:0%;}
+    66.66% {left:0%; top:0%;}
+    83.33% {left:-100%; top:0%;}
+    100% {left:-100%; top:-100%;}
+}
+@keyframes first-6-present {
+    0%   {left:-200%; top:-100%;}
+    16.66%  {left:-100%; top:-100%;}
+    33.33%  {left:0%; top:-100%;}
+    50%  {left:0%; top:0%;}
+    66.66% {left:-100%; top:0%;}
+    83.33% {left:-200%; top:0%;}
+    100% {left:-200%; top:-100%;}
+}
+@media only screen and (min-width: 600px) {
+    .creep-right {
+        grid-template-columns: auto auto auto auto;
+        height: 25.26vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .creep-right {
+        grid-template-columns: auto auto auto auto;
+        height: 25.26vw;
+    }
+}

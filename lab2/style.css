@@ -1,0 +1,59 @@
+.body {
+    display: flex;
+    justify-content: center;
+}
+#page {
+    border-collapse: collapse;
+}
+#page td {
+    padding: 0; 
+    margin: 0;
+}
+.text td {
+    text-align: center;
+    vertical-align: top;
+}
+hr {
+    padding: 0; 
+    margin: 0;
+}
+.white p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.white button {
+    color: white;
+    font-size: 20px;
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: rgb(192, 11, 0);
+}
+.white hr {
+    margin-left: 20px;
+}
+.white select {
+    width: 160px;
+    font-size: 18px;
+}
+.logo p {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 500;
+    font-stretch: semi-condensed;
+}
+.logo img {
+    margin-left: 35px;
+}
+.info {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 26px;
+}
+.info-hr {
+    margin-top: 38px;
+    margin-left: 20px;
+    width: 310px;
+    height: 1px;
+}

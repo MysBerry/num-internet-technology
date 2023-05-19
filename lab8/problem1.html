@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Problem-1</title>
+</head>
+<body style="padding-left: 50px;">
+    <h1>JS Problem-1</h1>
+    <script>
+        var name = prompt('Enter your name:');
+        document.write(name);
+        var length = name.length;
+        var eman = name.charAt(length - 1);
+        for(var i = length - 2; i >= 0; i--) {
+            eman = eman + name.charAt(i);
+        }
+        document.write('<br/>');
+        document.write(eman);
+        document.write('<br/>');
+        if(name == eman) {
+            document.write('Yes');
+        }
+        else {
+            document.write('No');
+        }
+    </script>
+</body>
+</html>
